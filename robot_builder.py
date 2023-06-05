@@ -12,7 +12,7 @@ def rectangle (horizontal,vertical,color):
         t.right(90)
     t.end_fill()
     t.penup()
-    t.speed('slow')
+    t.speed('fast')
     t.bgcolor('blue')
         
  #feet
@@ -23,9 +23,9 @@ rectangle(50,20,'blue')
     
 #legs
 t.goto(-25,-50)
-rectangle(15,100,'grey')
+rectangle(15,100,'hot pink')
 t.goto(-55,-50)
-rectangle(-15,100,'grey')
+rectangle(-15,100,'hot pink')
     
 #body
 t.goto(-90,100)
@@ -33,14 +33,14 @@ rectangle(100,150,'red')
     
 #arms
 t.goto(-150,70)
-rectangle(60,15,'grey')
+rectangle(60,15,'purple')
 t.goto(-150,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'purple')
 
 t.goto(10,70)
-rectangle(60,15,'grey')
+rectangle(60,15,'purple')
 t.goto(55,110)
-rectangle(15,40,'grey')
+rectangle(15,40,'purple')
     
 #neck
 t.goto(-50,120)
@@ -48,9 +48,11 @@ rectangle(15,20,'grey')
     
 #head
 t.goto(-85,175)
-rectangle(80,50,'red')
+rectangle(80,50,'yellow')
     
 #eyes
+t.goto(-60,160)
+rectangle(30,10,'white')
 t.goto(-55,155)
 rectangle(5,5,'black')
 t.goto(-40,155)
